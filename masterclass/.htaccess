@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^luxuryabode\.com
+RewriteRule (.*) http://www.luxuryabode.com/masterclass/$1 [R=301,L]
